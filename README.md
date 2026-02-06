@@ -1,6 +1,6 @@
 # Tool Discovery & Expansion Spec (v0.1)
 
-This repository contains a minimal, scalable specification for tool discovery and expansion for large language models (LLMs).
+This repository contains a minimal, scalable specification for tool discovery and expansion for large language models.
 It explains how to organize a large catalogue of tools in a way that minimizes context size, improves reasoning, and scales to thousands of capabilities.
 
 The full specification lives in [`spec/TOOL_DISCOVERY_SPEC_v0_1.md`](spec/TOOL_DISCOVERY_SPEC_v0_1.md).  Below is a short overview of what the specification covers.
@@ -24,10 +24,5 @@ This spec introduces a hierarchical tool index, progressive disclosure of metada
 |---|---|
 | `spec/TOOL_DISCOVERY_SPEC_v0_1.md` | The full specification, including goals, concepts, API definitions, error model and behavioural rules. |
 | `examples/` | Illustrative examples demonstrating how a model would navigate the hierarchy, search for tools, expand schemas and handle errors. |
-
-## Getting started
-
-To understand the rationale and design in depth, start with the specification file in the `spec` directory.
-You can then browse the examples to see how the API surfaces described in the spec could be implemented.
 
 This project is intended as a living document; feel free to fork it, adapt it to your own tooling architecture, and contribute improvements via pull request.
